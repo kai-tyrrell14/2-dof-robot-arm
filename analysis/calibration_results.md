@@ -9,7 +9,7 @@ This calibration was necessary before automated routines, such as pick and place
 - Validation: repeated motion cycles without any issues
 
 Final operating limits shown in 'servo_limits.md'
-## Calibration of Servos
+## 2. Calibration of Servos
 ### 2.1 Shoulder (CH0)
 **Experimental range:** 600-2400 μs
 
