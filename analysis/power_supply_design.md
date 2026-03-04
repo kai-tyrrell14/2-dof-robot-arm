@@ -2,7 +2,7 @@
 This document outlines the power requirements for the entire robotic arm system. The system incorporates three different servo
 types for the shoulder, elbow and gripper.
 
-## System Components
+## 1.System Components
 | Component | Supply | Notes |
 |-----------|--------|-------|
 | Arduino Uno | USB | Microcontroller |
@@ -11,7 +11,7 @@ types for the shoulder, elbow and gripper.
 | Elbow Servo | 6V External | MG996R Servo |
 | Gripper Servo | 6V External | MG90S Servo |
 
-## Estimated Servo Current
+## 2. Estimated Servo Current
 Current drawn by servos varies depending on load.
 | Condition | DsS3225 (Shoulder) | MG996R (Elbow) | MG90S (Gripper) |
 |-----------|-------------------|----------------|-----------------|
@@ -20,7 +20,7 @@ Current drawn by servos varies depending on load.
 | Under Load | ~1.5 A | ~1.5-2 A | ~400-600 mA |
 | Stall (worst case) | ~2.3 A | ~2.5 A | ~700 mA |
 
-## Worst Case Design Scenario
+## 3. Worst Case Design Scenario
 The worst case design scenario assumes all servos acting at stall conditions.
 Worst case per servo:
 - Shoulder (DS3225) = 2.3 A
@@ -30,14 +30,14 @@ Worst case per servo:
 Total peak demand:
 2.3 A + 2.5 A + 0.7 A = 5.5 A
 
-## Logic Power Requirements
+## 4. Logic Power Requirements
 | Component | Current |
 |-----------|---------|
 | Arduino Uno | ~50 mA |
 | PCA9685 | ~10 mA |
 Total pwer requirement ≈ 60 mA
 
-## Final Power Supply Design 
+## 5. Final Power Supply Design 
 The final design for delivering power to the robotic arm involves separating servo actuation power and logic power into two
 different circuits. This prevents voltage drop and ensures the Arduino Uno or PCA9685 do not draw excessive current. The power
 must also safely meet the demands of the worst case design scenario.
