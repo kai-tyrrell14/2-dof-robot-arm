@@ -2,7 +2,7 @@
 This document outlines the power requirements for the entire robotic arm system. The system incorporates three different servo
 types for the shoulder, elbow and gripper.
 
-## 1.System Components
+## 1. System Components
 | Component | Supply | Notes |
 |-----------|--------|-------|
 | Arduino Uno | USB | Microcontroller |
