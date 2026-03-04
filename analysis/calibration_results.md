@@ -2,15 +2,15 @@
 This document summarises the methods for calibrating the servos used for the robotic arm. 
 This calibration was necessary before automated routines, such as pick and place, can be performed.
 
-## Test Method
+## 1. Test Method
 - Controller: Arduino Uno + PCA9685
 - Method: incremental pulse stepping
 - Observation criteria: mechanical binding, audible strain, overheating
 - Validation: repeated motion cycles without any issues
 
 Final operating limits shown in 'servo_limits.md'
-
-## Shoulder (CH0)
+## Calibration of Servos
+### 2.1 Shoulder (CH0)
 **Experimental range:** 600-2400 μs
 
 **Key observations:**
@@ -21,7 +21,7 @@ Final operating limits shown in 'servo_limits.md'
 **Validation:**
 - Repeated motion cycles within servo limits resulted in no binding
 
-## Elbow (CH1)
+### 2.2 Elbow (CH1)
 **Experimental range:** 600-1800 μs
 
 **Key observations:**
@@ -32,7 +32,7 @@ Final operating limits shown in 'servo_limits.md'
 **Validation:**
 - Repeated motion cycles within servo limits resulted in no binding
 
-## Gripper (CH2)
+### 2.3 Gripper (CH2)
 **Initial issue:**
 - Original command for closing gripper resulted in sustained overloading of the SG90 servo
 - As a result one servo failed from being overloaded for too long
