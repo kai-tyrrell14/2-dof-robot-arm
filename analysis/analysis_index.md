@@ -9,5 +9,5 @@ The files in this folder outline the calibration and analysis methods used in th
 ## Documents
 - 'servo_limits.md' : Outlines final servo pulse ranges and home position.
 - 'calibration_results.md' : Summarises calibration testing, constraints and validation.
-- 'power_budget.md' : Estimated current demand for servo power distribution.
+- 'power_supply_design.md' : Estimated current demand for servo power distribution.
 - 'stability_notes.md' : Observed behaviour of robot arm stability and when tipping may occur.
