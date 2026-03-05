@@ -2,6 +2,7 @@
 An Arduino controlled 2-dof robotic arm capable of performing autonomous pick and place commands using calibrated servos and a gripper.
 ## 1. Demo
 ![Robot Arm Demo](media/motion_gif.gif)
+
 This demonstrates a simple pick and place routine using scripted joint movements.
 ## 2. Features
 - 2-DOF robotic arm with gripper end effector
