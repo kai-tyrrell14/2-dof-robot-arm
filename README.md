@@ -1,7 +1,7 @@
 # 2-dof-robot-arm
 An Arduino controlled 2-dof robotic arm capable of performing autonomous pick and place commands using calibrated servos and a gripper.
 ## 1. Demo
-![Robot Arm Demo](media/demo.gif)
+![Robot Arm Demo](media/motion_gif.gif)
 This demonstrates a simple pick and place routine using scripted joint movements.
 ## 2. Features
 - 2-DOF robotic arm with gripper end effector
@@ -37,3 +37,14 @@ System diagrams are available in the 'diagrams' folder.
 
 ## 5. User Interface
 Commands are sent through the Arduino Serial Monitor using the following keys:
+| Command | Description |
+|---------|-------------|
+| 's <μs>' | Move shoulder servo to pulse width (μs) |
+| 'e <μs>' | Move elbow servo to pulse width (μs) |
+| 'o' | Open gripper |
+| 'c' | Close gripper |
+| 'h' | Move to home position |
+| 'g' | Perform pick and place routine |
+| 'p' | Print current joint state |
+| 'r' | Release servo PWM |
+| 'wait <μs>' | Pause sequence for (μs) |
