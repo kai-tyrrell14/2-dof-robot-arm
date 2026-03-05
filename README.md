@@ -48,3 +48,29 @@ Commands are sent through the Arduino Serial Monitor using the following keys:
 | 'p' | Print current joint state |
 | 'r' | Release servo PWM |
 | 'wait <μs>' | Pause sequence for (μs) |
+
+## 6. Repository Structure
+An overview of the files included in this repository:
+- **'/CAD':** CAD models of mechanical
+- **'/analysis':** Calibration and engineering analysis
+- **'/code':** Arduino control software
+- **'/diagrams':** System design diagrams
+- **'/docs':** Project documentation
+- **'/electronics':** Wiring diagrams and pinout reference
+- **'/media':** Demomstration images and videos
+
+## 7. Engineering Challenges
+A number of issues were encountered and solutions implemented:
+- Shoulder joint servo was upgraded from MG996R to DS3225 after torque requirements were not being met
+- A soft-close approach was implemented to prevent servo overloading after a servo was damaged.
+- Motion smoothing and sequencing was implemented after stability issues were observed.
+
+More information can be found in 'docs/engineering_challenges.md'
+
+## 8. Future Improvements
+Some potential improvements may include:
+- Improving Base Stability
+- Computer Vision Integration
+- Automated Path Planning
+
+More information can be found in 'docs/future_improvements.md'
