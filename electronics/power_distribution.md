@@ -23,7 +23,7 @@ See 'wiring_diagram.png' for the wiring layout.
 - External +6V -> PCA9685 V+
 - PCA9685 V+ rail -> Servo V+
 
-## 3.2 Ground / Reference
+### 3.2 Ground / Reference
 - External supply GND -> PCA9685 GND
 - Arduino GND -> PCA9685 GND
 - Servo GND -> PCA9685 GND
