@@ -3,6 +3,8 @@
 
 **Servo Driver:** PCA9685
 
+Refer to 'electronics/wiring_diagram.png'.
+
 ## 1. I2C Communication Interface
 | Arduino Pin | PCA9685 | Function |
 |-------------|---------|----------|
