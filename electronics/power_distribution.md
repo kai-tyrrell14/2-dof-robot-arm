@@ -1,4 +1,4 @@
-# Power Distribution - 2-DOF Robotic Arm
+# Power Distribution
 **Controller:** Arduino Uno
 
 **Servo Driver:** PCA9685
