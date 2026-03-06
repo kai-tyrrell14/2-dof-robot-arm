@@ -1,4 +1,4 @@
-# Pinout Reference - 2-DOF Robotic Arm
+# Pinout Reference
 **Controller:** Arduino Uno
 
 **Servo Driver:** PCA9685
