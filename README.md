@@ -52,7 +52,7 @@ Commands are sent through the Arduino Serial Monitor using the following keys:
 
 ## 6. Repository Structure
 An overview of the files included in this repository:
-- **'/CAD':** CAD models of mechanical
+- **'/CAD':** CAD models of mechanical components
 - **'/analysis':** Calibration and engineering analysis
 - **'/code':** Arduino control software
 - **'/diagrams':** System design diagrams
